@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF3E2A68266F8ED600BA2A10 /* DetailTrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3E2A67266F8ED600BA2A10 /* DetailTrackViewController.swift */; };
 		CF4DA70B266E969600698EE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4DA70A266E969600698EE2 /* AppDelegate.swift */; };
 		CF4DA70D266E969600698EE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4DA70C266E969600698EE2 /* SceneDelegate.swift */; };
-		CF4DA70F266E969600698EE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4DA70E266E969600698EE2 /* ViewController.swift */; };
+		CF4DA70F266E969600698EE2 /* TrackTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4DA70E266E969600698EE2 /* TrackTableViewController.swift */; };
 		CF4DA712266E969600698EE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4DA710266E969600698EE2 /* Main.storyboard */; };
 		CF4DA714266E969800698EE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4DA713266E969800698EE2 /* Assets.xcassets */; };
 		CF4DA717266E969800698EE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4DA715266E969800698EE2 /* LaunchScreen.storyboard */; };
@@ -17,10 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF3E2A67266F8ED600BA2A10 /* DetailTrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTrackViewController.swift; sourceTree = "<group>"; };
 		CF4DA707266E969600698EE2 /* TrackProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF4DA70A266E969600698EE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF4DA70C266E969600698EE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CF4DA70E266E969600698EE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF4DA70E266E969600698EE2 /* TrackTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackTableViewController.swift; sourceTree = "<group>"; };
 		CF4DA711266E969600698EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF4DA713266E969800698EE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF4DA716266E969800698EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,12 +62,13 @@
 			children = (
 				CF4DA70A266E969600698EE2 /* AppDelegate.swift */,
 				CF4DA70C266E969600698EE2 /* SceneDelegate.swift */,
-				CF4DA70E266E969600698EE2 /* ViewController.swift */,
+				CF4DA70E266E969600698EE2 /* TrackTableViewController.swift */,
 				CF4DA710266E969600698EE2 /* Main.storyboard */,
 				CF4DA713266E969800698EE2 /* Assets.xcassets */,
 				CF4DA715266E969800698EE2 /* LaunchScreen.storyboard */,
 				CF4DA718266E969800698EE2 /* Info.plist */,
 				CF4DA720266E99A900698EE2 /* Track.swift */,
+				CF3E2A67266F8ED600BA2A10 /* DetailTrackViewController.swift */,
 			);
 			path = TrackProject;
 			sourceTree = "<group>";
@@ -140,8 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF4DA70F266E969600698EE2 /* ViewController.swift in Sources */,
+				CF4DA70F266E969600698EE2 /* TrackTableViewController.swift in Sources */,
 				CF4DA70B266E969600698EE2 /* AppDelegate.swift in Sources */,
+				CF3E2A68266F8ED600BA2A10 /* DetailTrackViewController.swift in Sources */,
 				CF4DA70D266E969600698EE2 /* SceneDelegate.swift in Sources */,
 				CF4DA721266E99A900698EE2 /* Track.swift in Sources */,
 			);
