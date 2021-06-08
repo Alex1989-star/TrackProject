@@ -13,6 +13,7 @@
 		CF4DA712266E969600698EE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4DA710266E969600698EE2 /* Main.storyboard */; };
 		CF4DA714266E969800698EE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4DA713266E969800698EE2 /* Assets.xcassets */; };
 		CF4DA717266E969800698EE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4DA715266E969800698EE2 /* LaunchScreen.storyboard */; };
+		CF4DA721266E99A900698EE2 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4DA720266E99A900698EE2 /* Track.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CF4DA713266E969800698EE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF4DA716266E969800698EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF4DA718266E969800698EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF4DA720266E99A900698EE2 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				CF4DA713266E969800698EE2 /* Assets.xcassets */,
 				CF4DA715266E969800698EE2 /* LaunchScreen.storyboard */,
 				CF4DA718266E969800698EE2 /* Info.plist */,
+				CF4DA720266E99A900698EE2 /* Track.swift */,
 			);
 			path = TrackProject;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 				CF4DA70F266E969600698EE2 /* ViewController.swift in Sources */,
 				CF4DA70B266E969600698EE2 /* AppDelegate.swift in Sources */,
 				CF4DA70D266E969600698EE2 /* SceneDelegate.swift in Sources */,
+				CF4DA721266E99A900698EE2 /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59U3Y8MDY6;
 				INFOPLIST_FILE = TrackProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59U3Y8MDY6;
 				INFOPLIST_FILE = TrackProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
